@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif; /*задал шрифт и цвет документу*/
+    background-color: lightblue;
+}
+
+/*
+font-family: 'Playfair Display', serif;     
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+h1{
+    font-size: 48px;
+    color: red;
+}
+
+h2{
+    font-size: 42px;
+    color: teal;
+}
+
+h3{
+    font-size: 36px;
+    color: violet;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.tex-align{
+    text-align: center;
+}
+
+.table,th,td{
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.color-thead{
+    background-color: slategray;
+    font-family: 'Playfair Display', serif;
+}
+
+.tex-italic{
+    font-style: italic;
+}
+
+.tex-bold{
+    font-weight: bold;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
